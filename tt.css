@@ -1,0 +1,78 @@
+body {
+    background-color: black;
+}
+
+/*Button*/
+
+.button {
+    text-align: center;
+    font-size: 28px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 15px;
+    animation: hover 3s infinite;
+}
+
+@keyframes hover {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+a {
+    color: hotpink;
+}
+
+/*video*/
+
+.VideoContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.tiktok-embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.tiktok-embed {
+    width: 50px;
+    width: 50px;
+    animation: scale-down-center 4s;
+}
+
+@-webkit-keyframes scale-down-center {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    100% {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+}
+
+@keyframes scale-down-center {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    100% {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+}
