@@ -1,0 +1,85 @@
+/*Hintergrund*/
+body {
+    background-image: url(./Bilder/DJ-P.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 140vh;
+    margin: 0;
+}
+
+/*Schrift*/
+h1 {
+
+    color: hotpink;
+    background: #000000;
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.656),
+        0 0 10px rgba(255, 255, 255, 0.709);
+    text-align: center;
+}
+
+a {
+    font-size: 25px;
+    color: rgb(246, 230, 230);
+    margin-bottom: 20px;
+}
+
+/*video*/
+
+.video-links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.video-link {
+    background-color: #318cbc8a;
+    padding: 60px;
+    border-radius: 6px;
+    text-align: center;
+    width: 30%;
+    max-width: 40px;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+    box-sizing: border-box;
+    font-size: 22px;
+
+}
+
+/*Bilder*/
+.image-container {
+    display: flex;
+    animation: slide-top;
+}
+
+.image-container img {
+    max-width: 90%;
+    height: auto;
+    margin-right: 25px;
+    animation-name: kid;
+    animation-duration: 4s;
+}
+
+@keyframes kid {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
