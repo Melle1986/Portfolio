@@ -1,0 +1,147 @@
+/*Der hintergrund*/
+body {
+    margin: 0;
+    padding: 0;
+    height: 800px;
+    color: rgba(7, 181, 239, 0.686);
+    background: #1a1a1a;
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.276),
+    0 0 10px rgba(255, 255, 255, 0.615);
+    }
+    
+    /*überschrift*/
+    h1 {
+    
+    -webkit-box-shadow: #fff 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px,
+    red 0 -18px 40px, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    box-shadow: #fff 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px,
+    red 0 -18px 40px, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    background: #ecefcf;
+    text-align: center;
+    color: black
+    }
+    
+    div,
+    h3 {
+    padding-top: 20px;
+    margin-top: 20px;
+    }
+    
+    /*Bilder in der richtigen reinfolge*/
+    .right {
+    float: right;
+    margin-left: 10em;
+    }
+    
+    .left {
+    float: left;
+    margin-right: 10em;
+    }
+    
+    img {
+    min-width: 350px;
+    height: 20vh;
+    width: 20%;
+    max-height: 30%;
+    margin-left: 15%;
+    margin-right: 15%;
+    animation: 3s right infinite;
+    }
+    
+    .right:hover {
+    animation: 3s right infinite;
+    
+    }
+    
+    .left:hover {
+    animation: 3s left infinite;
+    
+    }
+    
+    @keyframes right {
+    0% {
+    transform: scale(1);
+    }
+    
+    50% {
+    transform: scale(1.2);
+    }
+    
+    100% {
+    transform: scale(1);
+    }
+    }
+    
+    @keyframes left {
+    0% {
+    transform: scale(1);
+    }
+    
+    50% {
+    transform: scale(1.2);
+    }
+    
+    100% {
+    transform: scale(1);
+    }
+    }
+    
+    /*der text*/
+    
+    .text-container1,
+    text-container3 {
+    width: 40%;
+    height: 40%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 20px;
+    }
+    
+    .text-container3 {
+    width: 40%;
+    height: 50%;
+    padding-left: 4%;
+    font-size: 20px;
+    }
+    
+    .text-container2 {
+    width: 40%;
+    height: 40%;
+    padding-left: 50%;
+    font-size: 20px;
+    }
+    
+    .text-container4 {
+    width: 40%;
+    height: 50%;
+    padding-left: 55%;
+    font-size: 19px;
+    }
+    
+    /*buttons*/
+    .button {
+    text-align: center;
+    font-size: 28px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 15px;
+    animation: hover 3s infinite;
+    }
+    
+    a {
+    color: hotpink;
+    }
+    
+    @keyframes hover {
+    0% {
+    transform: scale(1);
+    }
+    
+    50% {
+    transform: scale(1.2);
+    }
+    
+    100% {
+    transform: scale(1);
+    }
+    }
+    
