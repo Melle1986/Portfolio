@@ -1,11 +1,8 @@
 /* Hintergrund */
 body {
-    background: #A4472C;
-    background: -moz-linear-gradient(left, #A4472C 0%, #2F2F2F 0%, #BE0E40 100%);
-    background: -webkit-linear-gradient(left, #A4472C 0%, #2F2F2F 0%, #BE0E40 100%);
-    background: linear-gradient(to right, #A4472C 0%, #2F2F2F 0%, #BE0E40 100%);
+    background-image: url(Bilder/info.jpg);
 }
-
+   
 /* das Bild */
 img {
     max-width: 150%;
@@ -17,12 +14,13 @@ img {
 
 /* Überschrift */
 h1 {
-    margin: 20px;
-    padding: 10px;
-    -webkit-box-shadow: #FFF 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px, 5px 5px 15px 5px rgba(0, 0, 0, 0);
-    box-shadow: #FFF 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px, 5px 5px 15px 5px rgba(0, 0, 0, 0);
-    background: #ECEFCF;
+    background-color: rgba(128, 128, 128, 0.491);
+    margin: 0 auto;
+    border-radius: 30px;
+    max-width: 45%;
     text-align: center;
+    font-family:"Cagliostro";
+    font-size: 30px;
 }
 
 /* Text */
@@ -31,13 +29,14 @@ h1 {
     flex-direction: column;
     align-items: center;
     font-size: 25px;
-    color: grey;
+    color: rgba(128, 128, 128, 0.894);
     padding: 25px;
-    background-color: rgba(0, 0, 0, 0.3);
-    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.286);
+    border-radius: 30px;
     max-width: 80%; 
     margin: 0 auto; 
     text-align: center;
+    box-shadow: 0 0 60px rgba(0, 0, 0, 0.3);
 }
 
 .steck {
@@ -61,27 +60,10 @@ h1 {
     animation: container 3s;
 }
 
-.container:hover {
-    animation: none;
-    color: #fff;
-}
 
-@keyframes container {
-    0% {
-        transform: scale(1);
-    }
-
-    50% {
-        transform: scale(1.2);
-    }
-
-    100% {
-        transform: scale(1);
-    }
-}
 
 a {
-    color: black;
+    color: white;
 }
 
 ul {
