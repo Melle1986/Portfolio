@@ -4,12 +4,23 @@ body {
 }
    
 /* das Bild */
-img {
+.MeinBild{
     max-width: 150%;
     height: 150px;
     margin: 0 auto;
     padding-left: 45%;
     
+}
+
+.lala {
+    
+    justify-content: center;
+    padding: 60px;
+    width: 20%;
+    height: 30%;
+    border-radius: 100%;
+    
+
 }
 
 /* Überschrift */
