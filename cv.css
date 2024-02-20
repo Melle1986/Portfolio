@@ -1,0 +1,36 @@
+body{
+    background-image: url(Bilder/12804207_5073414.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+}
+
+.ab {
+    font-family: Georgia, serif;
+    font-size: 50px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #fffdfd;
+    font-weight: 700;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: italic;
+    font-variant: normal;
+    text-transform: uppercase;
+    text-align: center;
+    }
+
+.bild{
+    max-width: 250%;
+    height: 250px;
+    margin: 0 auto;
+    padding-left: 55%;
+}
+
+.bild2{
+    max-width: 250%;
+    height: 250px;
+    margin: 0 auto;
+    padding-left: 20%;
+}
+
