@@ -1,12 +1,21 @@
 /* Hintergrund */
 body {
-    background-image: url(Bilder/info.jpg);
+    background-image: url(https://free4kwallpapers.com/uploads/originals/2015/07/26/abstract-wallpaper-1920x1080.jpg);
+    background-size: cover;
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 140vh;
+    margin: 0;
+    font-family: "Cagliostro";
+
 }
    
 /* das Bild */
 .MeinBild{
-    max-width: 150%;
-    height: 150px;
+    max-width: 300%;
+    height: 400px;
     margin: 0 auto;
     padding-left: 45%;
     
