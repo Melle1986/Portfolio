@@ -14,7 +14,7 @@ body {
     
     /*überschrift*/
     h1{
-        color: rgba(255, 255, 255, 0.348);
+        color: rgba(255, 255, 255, 0.679);
         text-align: center;
         font-size: 60px;
     }
@@ -60,26 +60,7 @@ img {
    /*buttons*/
 .button {
     text-align: center;
-    font-size: 28px;
-    color: rgb(0, 0, 0);
-    margin-bottom: 15px;
-    animation: hover 3s infinite;
-}
-
-a {
+    font-size: 30px;
     color: hotpink;
+    margin-bottom: 90px;
 }
-
-@keyframes hover {
-    0% {
-        transform: scale(1);
-    }
-
-    50% {
-        transform: scale(1.2);
-    }
-
-    100% {
-        transform: scale(1);
-    }
-} 
