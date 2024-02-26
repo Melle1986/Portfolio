@@ -25,18 +25,24 @@ body{
     height: 250px;
     margin: 0 auto;
     padding-left: 55%;
+ 
+    
 }
+
 
 .bild2{
     max-width: 250%;
     height: 250px;
     margin: 0 auto;
     padding-left: 20%;
+    
 }
-
 .button {
     text-align: center;
     font-size: 30px;
     color: hotpink;
-    margin-bottom: 90px;
-}
+    padding: 50px 50px;
+    margin: 50px 50px;
+    border-radius: 10px;
+    
+   }
