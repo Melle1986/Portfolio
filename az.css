@@ -46,3 +46,14 @@ body{
     border-radius: 10px;
     
    }
+
+   .links {
+    display: flex;
+    justify-content: space-between; /* Abstand zwischen den Elementen */
+    align-items: center; /* Zentrierung der Elemente vertikal */
+    flex-wrap: wrap; /* Umbruch, wenn nicht genug Platz vorhanden ist */
+}
+
+.links a {
+    margin:  100px; /* horizontaler Abstand zwischen den Bildern */
+}
