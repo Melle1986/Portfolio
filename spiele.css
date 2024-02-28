@@ -11,53 +11,45 @@ body {
     background-repeat: no-repeat;
     background-position: center;
 }
-    
-    /*überschrift*/
-    h1{
-        color: rgba(255, 255, 255, 0.679);
-        text-align: center;
-        font-size: 60px;
-    }
-    
-    div,
+
+/*überschrift*/
+h1 {
+    color: rgba(255, 255, 255, 0.679);
+    text-align: center;
+    font-size: 60px;
+}
+
 h3 {
-  color: rgba(255, 255, 255, 0.561);
-    font-size: 20px;
+    color: rgba(255, 255, 255, 0.561);
+    font-size: 30px;
     margin-top: 5px;
     padding-top: 5px;
     width: 40%;
 }
-
 h3 {
     text-align: center;
     font-size: 30px;
     width: 100%;
 }
-    
-    /*Bilder in der richtigen reinfolge*/
-.right {
-    float: right;
-    text-align: center; 
-    border-radius: 50%;   
+
+.p {
+    color: gray;
+    font-size: 25px;
+    margin-top: 5px;
+    padding-top: 5px;
+    width: 35%;
+
 }
 
-.left {
-    float: left;
-    text-align: center;
-    border-radius: 50%;
-}
-
+/* Die Bilder sollen größer werden  */
 img {
-    min-width: 350px;
-    height: 20vh;
-    width: 20%;
-    max-height: 30%;
-    margin-left: 15%;
-    margin-right: 15%;
-
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    margin: 5px;
 }
 
-   /*buttons*/
+/*buttons*/
 .button {
     text-align: center;
     font-size: 30px;
