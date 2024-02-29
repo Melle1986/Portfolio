@@ -87,3 +87,27 @@ ul {
     padding: 25px; 
     overflow: hidden;
 }
+
+.musik {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+   
+}
+
+.musik img {
+    border-radius: 50%; /* Macht das Bild rund */
+}
+
+.play {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+   
+}
+
+.play img {
+    border-radius: 50%; /* Macht das Bild rund */
+}
