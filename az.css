@@ -28,6 +28,28 @@ body{
  
     
 }
+.text {
+    font-family: Georgia, serif;
+    font-size: 25px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #fffdfd;
+    font-weight: 700;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: italic;
+    font-variant: normal;
+    text-transform: uppercase;
+    text-align: center;
+    }
+
+    .bild1{
+    max-width: 250%;
+    height: 250px;
+    margin: 0 auto;
+    padding-left: 20%;
+    
+}
+
 
 
 .bild2{
@@ -55,5 +77,5 @@ body{
 }
 
 .links a {
-    margin:  100px; /* horizontaler Abstand zwischen den Bildern */
+    margin:  25px; /* horizontaler Abstand zwischen den Bildern */
 }
