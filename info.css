@@ -31,7 +31,6 @@ body {
 
 /* Überschrift */
 h1 {
-    background-color: rgba(231, 228, 228, 0);
     color: rgba(212, 211, 211, 0.941);
     margin: 0 auto;
     border-radius: 30px;
@@ -94,7 +93,7 @@ ul {
 }
 
 .musik img {
-    border-radius: 50%; /* Macht das Bild rund */
+    border-radius: 50%; 
 }
 
 .play {
@@ -106,5 +105,5 @@ ul {
 }
 
 .play img {
-    border-radius: 50%; /* Macht das Bild rund */
+    border-radius: 50%; 
 }
