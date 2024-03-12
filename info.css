@@ -1,13 +1,10 @@
 /* Hintergrund */
 body {
-    background-image: url(Bilder/info.jpg);
-    background-size: cover;
-    /* display: flex; */
+    background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJoDsppA6x2JI7WQnTgfnYaoTFVW4W48Sg-VDTMjM_l5knjx7o0_pURlt0SDAfHU0mk_jZQPCZojgLiNFQYq9ak_2I2WsNwjrQ_c8OBc-w8f4ATsuq0nK3FmY8NfHZrhwPPatB9qM2Ugl4UjFQI4goBPqTTjJECavIYOgNCLDVlWkB4CBvcBeeCoHabQ/s2560/wallpaper-for-setup-gamer-2560x1440.jpg);
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 140vh;
-    margin: 0;
+    min-height: 100vh;
     font-family: "Cagliostro";
 
 }
