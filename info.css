@@ -31,7 +31,8 @@ body {
 
 /* Überschrift */
 h1 {
-    background-color: rgba(128, 128, 128, 0.491);
+    background-color: rgba(231, 228, 228, 0);
+    color: rgba(212, 211, 211, 0.941);
     margin: 0 auto;
     border-radius: 30px;
     max-width: 45%;
@@ -46,14 +47,13 @@ h1 {
     flex-direction: column;
     align-items: center;
     font-size: 27px;
-    color: rgba(128, 128, 128, 0.941);
+    color: rgba(212, 211, 211, 0.941);
     padding: 25px;
-    background-color: rgba(0, 0, 0, 0.653);
     border-radius: 30px;
     max-width: 80%; 
     margin: 0 auto; 
     text-align: center;
-    box-shadow: 0 0 60px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 60px rgb(0, 0, 0);
     font-family: "Shantell Sans", cursive;
 }
 
