@@ -9,7 +9,20 @@ body {
 
 }
 
-
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: rgba(212, 211, 211, 0.941);
+    padding: 25px;
+    border-radius: 30px;
+    max-width: 80%; 
+    margin: 0 auto; 
+    text-align: center;
+    box-shadow: 0 0 60px rgb(0, 0, 0);
+    font-family: "Shantell Sans", cursive;
+}
    
 /* das Bild */
 .MeinBild{
