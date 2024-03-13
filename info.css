@@ -8,26 +8,20 @@ body {
     font-family: "Cagliostro";
 
 }
+
+
    
 /* das Bild */
 .MeinBild{
-    max-width: 300%;
+    display: flex;
     height: 400px;
     margin: 0 auto;
-    padding-left: 45%;
-    
-}
-
-.lala {
-    
-    justify-content: center;
-    padding: 60px;
-    width: 20%;
-    height: 30%;
+    text-align: center;
     border-radius: 100%;
     
-
 }
+
+
 
 /* Überschrift */
 h1 {
@@ -38,7 +32,27 @@ h1 {
     text-align: center;
     font-family: "Shantell Sans", cursive;
     font-size: 35px;
+    animation: spotlight 2s infinite alternate;
+    
 }
+@keyframes spotlight {
+    0% {
+      text-shadow: 0 0 0 transparent;
+    }
+    50% {
+      text-shadow: 0 0 10px #7d7272, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #9500ff, 0 0 70px #ae00ff, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+    }
+    100% {
+      text-shadow: 0 0 0 transparent;
+    }
+  }
+  
+  .spotlight {
+    animation: spotlight 2s infinite alternate;
+  }
+
+
+
 
 /* Text */
 .text-container {
