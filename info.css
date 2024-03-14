@@ -30,7 +30,7 @@ body {
   height: 400px;
   margin: 0 auto;
   text-align: center;
-  border: 25px solid #666;
+  border: 40px solid #666;
   border-radius: 1%;
   border-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqsK0WwfFBArO8tLVDXwvV4_BNZR9UuxJlBA&usqp=CAU);
   border-image-slice: 30;
@@ -103,8 +103,7 @@ h1 {
     height: auto;
     padding: 35px; 
     font-size: 22px;
-}
-
+   }
 
 ul {
     list-style-type: none;
@@ -120,22 +119,19 @@ ul {
     width: 100%; 
    
 }
-
 .musik img {
     border-radius: 50%; 
-   
+    
 }
+
 
 .play {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%; 
-  
+    
 }
-
-  
-
 .play img {
     border-radius: 50%; 
    
