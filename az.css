@@ -60,12 +60,13 @@ body{
     
 }
 .button {
-    text-align: center;
-    font-size: 30px;
+    /* text-align: center; */
+    font-size: 40px;
     color: hotpink;
     padding: 50px 50px;
     margin: 50px 50px;
     border-radius: 10px;
+    margin-left: 40%;
     
    }
 

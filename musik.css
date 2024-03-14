@@ -29,8 +29,8 @@ a {
 }
 
 .ende {
-    font-size: 30px;
-    color: black;
+    font-size: 35px;
+    color: rgb(255, 3, 200);
     text-decoration: none;
     text-align: center;
 
@@ -78,15 +78,11 @@ a {
 }
         
 
-
 /*Bilder*/
 .image-container {
-
-    display: flex;
-    animation: slide-top;
-
-
-
+     display: flex;
+     margin: 50px;
+    animation: slide-top ;
 }
 
 .image-container img {
