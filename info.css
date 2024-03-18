@@ -41,11 +41,11 @@ body {
 h1 {
     color: rgba(212, 211, 211, 0.941);
     margin: 0 auto;
-    border-radius: 30px;
-    max-width: 45%;
+    border-radius: 40px;
+    max-width: 60%;
     text-align: center;
     font-family: "Shantell Sans", cursive;
-    font-size: 35px;
+    font-size: 45px;
     animation: spotlight 2s infinite alternate;
     }
 
@@ -73,8 +73,8 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 27px;
-    color: rgba(212, 211, 211, 0.941);
+    font-size: 28px;
+    color: rgba(212, 211, 211, 0.895);
     padding: 25px;
     border-radius: 30px;
     max-width: 80%; 
