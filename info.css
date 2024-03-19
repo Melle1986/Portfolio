@@ -27,7 +27,7 @@ body {
 /* das Bild */
 .MeinBild{
   display: flex;
-  height: 600px;
+  height: 500px;
   margin: 0 auto;
   text-align: center;
   border-radius: 50px;  
@@ -100,6 +100,7 @@ h1 {
     height: auto;
     padding: 35px; 
     font-size: 22px;
+
    }
 
 ul {
@@ -117,10 +118,17 @@ ul {
    
 }
 .musik img {
-    border-radius: 50%; 
-    
+    border-radius: 50%;    
 }
 
+
+  .play {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+    
+}
 
 .play {
     display: flex;
@@ -130,6 +138,6 @@ ul {
     
 }
 .play img {
-    border-radius: 50%; 
-   
+    border-radius: 50%;
+    
   }
