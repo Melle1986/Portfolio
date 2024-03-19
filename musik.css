@@ -13,19 +13,61 @@ body {
 
 /*Schrift*/
 h1 {
-
-    color: hotpink;
+     color: hotpink;
     text-shadow: 0 0 15px rgba(255, 255, 255, 0.444),
         0 0 10px rgba(255, 255, 255, 0.329);
     text-align: center;
     font-size: 60px;
-}
+    
+        color: rgba(212, 211, 211, 0.941);
+        margin: 0 auto;
+        border-radius: 40px;
+        max-width: 60%;
+        text-align: center;
+        font-family: "Shantell Sans", cursive;
+        font-size: 45px;
+        animation: spotlight 2s infinite alternate;
+        }
+    
+    
+        @keyframes spotlight {
+          0% {
+            text-shadow: 0 0 0 transparent;
+          }
+          50% {
+            text-shadow: 0 0 10px #7d7272, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #9500ff, 0 0 70px #ae00ff, 0 0 80px #ff00dddc, 0 0 100px #ff00de, 0 0 150px #ff00de;
+          }
+          100% {
+            text-shadow: 0 0 0 transparent;
+          }
+        }
+        
+        .spotlight {
+          animation: spotlight 2s infinite alternate;
+        }
+
 
 a {
     font-size: 35px;
     color: rgb(255, 10, 133);
     text-decoration: none;
     text-align: center; 
+}
+
+.text {
+    font-size: 35px;
+    color: rgb(255, 10, 133);
+    text-decoration: none;
+    text-align: center;
+    font-size: 28px;
+    color: rgb(212, 211, 211);
+    padding: 25px;
+    border-radius: 30px;
+    max-width: 80%; 
+    margin: 0 auto; 
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.765);
+    box-shadow: 0 0 70px rgba(253, 253, 253, 0.775);
 }
 
 .ende {
