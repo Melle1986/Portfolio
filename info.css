@@ -27,13 +27,10 @@ body {
 /* das Bild */
 .MeinBild{
   display: flex;
-  height: 400px;
+  height: 600px;
   margin: 0 auto;
   text-align: center;
-  border: 40px solid #666;
-  border-radius: 1%;
-  border-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqsK0WwfFBArO8tLVDXwvV4_BNZR9UuxJlBA&usqp=CAU);
-  border-image-slice: 30;
+  border-radius: 50px;  
 }
 
 
