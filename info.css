@@ -110,6 +110,8 @@ ul {
     overflow: hidden;
 }
 
+
+
 .musik {
     display: flex;
     justify-content: center;
@@ -141,3 +143,28 @@ ul {
     border-radius: 50%;
     
   }
+
+
+  .container :hover {
+    /* background-color: #f1f1f188; */
+    color: #000;
+    border-radius: 20px;
+    box-shadow: 0 0 60px rgb(52, 52, 52);
+    transition: 0.5s;
+}
+
+.musik :hover {
+    background-color: #f1f1f188;
+    color: #000;
+    border-radius: 60px;
+    box-shadow: 0 0 60px rgb(0, 0, 0);
+    transition: 0.5s;
+}
+
+.play :hover {
+    background-color: #f1f1f188;
+    color: #000;
+    border-radius: 60px;
+    box-shadow: 0 0 60px rgb(0, 0, 0);
+    transition: 0.5s;
+}
