@@ -33,12 +33,14 @@ h3 {
 }
 
 .p {
-    color: gray;
-    font-size: 25px;
+    background-color: rgba(0, 0, 0, 0.582);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.775);
+    color: rgb(159, 141, 141);
+    font-size: 22px;
+    text-align: center;
     margin-top: 5px;
     padding-top: 5px;
     width: 35%;
-
 }
 
 /* Die Bilder sollen größer werden  */
