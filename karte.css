@@ -1,0 +1,30 @@
+body {
+    background-image: url(Kartenping/ea2f14c567050ea3e94bae9782cd41ea.jpg);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: "Cagliostro";
+
+
+}
+
+img {
+    width: 30%;
+    height: 60%;
+   margin-left: 35%;
+    text-align: center;
+
+}
+
+h1 {
+    color: hotpink;
+    text-align: center;
+    font-size: 80px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    
+}
