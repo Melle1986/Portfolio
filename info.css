@@ -168,3 +168,23 @@ ul {
     box-shadow: 0 0 60px rgb(0, 0, 0);
     transition: 0.5s;
 }
+
+.Selbst {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; 
+ 
+ 
+}
+.Selbst img {
+  border-radius: 50%;    
+}
+
+.Selbst :hover {
+  background-color: #f1f1f188;
+  color: #000;
+  border-radius: 50px;
+  box-shadow: 0 0 50px rgb(0, 0, 0);
+  transition: 0.5s;
+}
