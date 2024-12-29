@@ -1,6 +1,6 @@
 /* Hintergrund */
 body {
-    background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJoDsppA6x2JI7WQnTgfnYaoTFVW4W48Sg-VDTMjM_l5knjx7o0_pURlt0SDAfHU0mk_jZQPCZojgLiNFQYq9ak_2I2WsNwjrQ_c8OBc-w8f4ATsuq0nK3FmY8NfHZrhwPPatB9qM2Ugl4UjFQI4goBPqTTjJECavIYOgNCLDVlWkB4CBvcBeeCoHabQ/s2560/wallpaper-for-setup-gamer-2560x1440.jpg);
+    background-image: url(Bilder/12804207_5073414.jpg);
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -25,6 +25,7 @@ body {
 }
    
 /* das Bild */
+
 .MeinBild{
   display: flex;
   height: 500px;
@@ -35,6 +36,7 @@ body {
 
 
 /* Überschrift */
+
 h1 {
     color: rgba(212, 211, 211, 0.941);
     margin: 0 auto;
@@ -100,7 +102,6 @@ h1 {
     height: auto;
     padding: 35px; 
     font-size: 22px;
-
    }
 
 ul {
@@ -110,91 +111,68 @@ ul {
     overflow: hidden;
 }
 
-
+/* link zu den anderen Seiten */
 
 .musik {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%; 
-   
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; 
 }
 .musik img {
-    border-radius: 50%;    
+  border-radius: 50%;    
 }
-
-
-  .play {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%; 
-    
-}
-
-.play {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%; 
-    
-}
-.play img {
-    border-radius: 50%;
-    
-  }
-
-
-  .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%; 
-   
-   
-  }
-  .container img {
-    border-radius: 50%;    
-  }
-  
-  .container :hover {
-    background-color: #f1f1f188;
-    color: #000;
-    border-radius: 50px;
-    box-shadow: 0 0 50px rgb(0, 0, 0);
-    transition: 0.5s;
-  }
-
-
 .musik :hover {
-    background-color: #f1f1f188;
-    color: #000;
-    border-radius: 60px;
-    box-shadow: 0 0 60px rgb(0, 0, 0);
-    transition: 0.5s;
+  background-color: #f1f1f188;
+  color: #000;
+  border-radius: 50px;
+  box-shadow: 0 0 50px rgb(0, 0, 0);
+  transition: 0.5s;
 }
-
-.play :hover {
-    background-color: #f1f1f188;
-    color: #000;
-    border-radius: 60px;
-    box-shadow: 0 0 60px rgb(0, 0, 0);
-    transition: 0.5s;
-}
-
 .Selbst {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%; 
- 
- 
 }
 .Selbst img {
   border-radius: 50%;    
 }
-
 .Selbst :hover {
+  background-color: #f1f1f188;
+  color: #000;
+  border-radius: 50px;
+  box-shadow: 0 0 50px rgb(0, 0, 0);
+  transition: 0.5s;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; 
+}
+.container img {
+  border-radius: 50%;    
+}
+.container :hover {
+  background-color: #f1f1f188;
+  color: #000;
+  border-radius: 50px;
+  box-shadow: 0 0 50px rgb(0, 0, 0);
+  transition: 0.5s;
+}
+
+.play {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; 
+}
+.play img {
+  border-radius: 50%;    
+}
+.play :hover {
   background-color: #f1f1f188;
   color: #000;
   border-radius: 50px;
