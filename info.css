@@ -1,7 +1,9 @@
 /* Hintergrund */
 body {
-    background-image: url(Bilder/12804207_5073414.jpg);
+    background-image: url(Bilder/galaxy.jpg);
     flex-direction: column;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
     align-items: center;
     justify-content: center;
     min-height: 100vh;
@@ -178,4 +180,23 @@ ul {
   border-radius: 50px;
   box-shadow: 0 0 50px rgb(0, 0, 0);
   transition: 0.5s;
+}
+
+.Zertifikat {
+  padding: 14px 60px;
+  font-size: 1.8rem;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+
+.Zertifikat:hover {
+  transform: scale(1.1);
+}
+
+.Zertifikat {
+  color: hotpink;
+  display: inline-block;
+  background: transparent;
+  font-size: 1.8rem;
 }
