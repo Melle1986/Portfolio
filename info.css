@@ -1,13 +1,13 @@
 /* Hintergrund */
 body {
-    background-image: url(Bilder/galaxy.jpg);
-    flex-direction: column;
+    background-image: url(Bilder/galaxy.png);
+    background-size: cover;
+    background-attachment: fixed;
     background-repeat: no-repeat;
-    /* background-size: cover; */
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    font-family: "Cagliostro";
+    /* font-family: "Shantell Sans", cursive; */
+    width: 95%;
+    height: 70%;
+   
 
 }
 
@@ -131,6 +131,8 @@ ul {
   box-shadow: 0 0 50px rgb(0, 0, 0);
   transition: 0.5s;
 }
+
+
 .Selbst {
   display: flex;
   justify-content: center;
@@ -147,6 +149,8 @@ ul {
   box-shadow: 0 0 50px rgb(0, 0, 0);
   transition: 0.5s;
 }
+
+
 
 .container {
   display: flex;
@@ -165,6 +169,8 @@ ul {
   transition: 0.5s;
 }
 
+
+
 .play {
   display: flex;
   justify-content: center;
@@ -182,6 +188,8 @@ ul {
   transition: 0.5s;
 }
 
+/* Link zum donwnoad */
+
 .Zertifikat {
   padding: 14px 60px;
   font-size: 1.8rem;
@@ -189,11 +197,9 @@ ul {
   cursor: pointer;
   transition: transform 0.5s;
 }
-
 .Zertifikat:hover {
   transform: scale(1.1);
 }
-
 .Zertifikat {
   color: hotpink;
   display: inline-block;
